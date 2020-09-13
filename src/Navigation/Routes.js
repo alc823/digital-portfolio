@@ -7,7 +7,7 @@ import Skills from '../Components/Skills/Skills';
 
 const Routes = () => {
     return <Switch>
-            <Route path='/portfolio' component={Home} exact/>
+            <Route path='/' component={Home} exact/>
             <Route path='/work' component={Work}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/skills' component={Skills}/>
