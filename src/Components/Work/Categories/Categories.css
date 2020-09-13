@@ -1,0 +1,13 @@
+.category {
+    border: #797979 1px solid;
+    /* border-radius: 10px; */
+    /* padding: 5vw; */
+    /* padding-top: 10vh; */
+    padding-bottom: 10vh;
+    /* margin: 1.5vw; */
+}
+
+.tab-label{
+    font-size: 8px;
+    /* width: 5vw; */
+}

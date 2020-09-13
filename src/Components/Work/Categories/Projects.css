@@ -1,0 +1,26 @@
+.project-info {
+    text-align: left;
+    width: 60vw;
+    font-family: var(--font-family);
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-info {
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project-info {
+        width: 60vw;
+        font-size: 14px;
+    }
+    .project-title {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,29 @@
+@import '../App.css';
+
+.navigationbar {
+    background-color: var(--background-color);
+    padding-top: 5vh;
+}
+
+.nav-options {
+    justify-content: center;
+}
+
+.nav-option {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    color: black;
+}
+
+.nav-option:hover {
+    transform: translateY(-2px);
+    color: black;
+    opacity: 50%;
+    text-decoration: none;
+  }
+
+.nav-option--active {
+    border-bottom: 3px solid #797979;
+    border-radius: 2px;
+    transition: border-bottom .5s ease-in-out;
+  }

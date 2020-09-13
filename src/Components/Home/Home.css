@@ -1,0 +1,33 @@
+@import '../../App.css';
+
+.homepage {
+    padding-left: var(--padding-width);
+    padding-right: var(--padding-width);
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    background-color: var(--background-color);;
+    /* background-image: url("https://i.pinimg.com/originals/c4/0f/7a/c40f7ae85c30b89117fe1a1c905a4c98.png"); */
+    background: cover;
+    height: 100vh;
+    /* display: flex; */
+}
+
+.header {
+    flex:1;
+}
+/* .aboutme {
+    flex:3;
+} */
+
+
+@media only screen and (max-width: 1000px) {
+    .homepage {
+        display:block;
+    }
+    .header{
+        flex:1;
+    }
+    .aboutme{
+        width: 80vw;
+    }
+}

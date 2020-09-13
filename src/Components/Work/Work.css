@@ -1,0 +1,19 @@
+.work {
+    padding-right: var(--padding-width);
+    padding-left: var(--padding-width);
+    padding-top: 10vh;
+}
+
+@media only screen and (max-width: 800px) {
+    .work{
+        padding-right:5vw;
+        padding-left: 5vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .work{
+        padding-right:2vw;
+        padding-left: 2vw;
+    }
+}

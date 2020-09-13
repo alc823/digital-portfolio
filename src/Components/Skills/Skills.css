@@ -1,0 +1,26 @@
+.skills {
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.first-column {
+    border-right: #797979 1px solid;
+}
+
+.skill-column {
+    /* width: 40vw; */
+}
+
+.skill-section {
+    margin:1vh;
+}
+
+.skill-header {
+    text-decoration: underline;
+}
+
+.skill-description {
+    font-size: 14px;
+}
