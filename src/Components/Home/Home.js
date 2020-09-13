@@ -17,11 +17,11 @@ function Home() {
     };
 
     const toggleShow = (index) => {
-        if (index == 0) {
+        if (index === 0) {
             setShow0(true);
             setShow1(false);
             setShow2(false);
-        } else if (index == 1) {
+        } else if (index === 1) {
             setShow0(false);
             setShow1(true);
             setShow2(false);

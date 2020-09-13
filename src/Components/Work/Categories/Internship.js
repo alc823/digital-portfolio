@@ -12,7 +12,7 @@ function Internship(props) {
             <hr/> */}
             {internshipProjects.map(project => {
                 var divide = true;
-                if (project.id == internshipProjects.length - 1) {
+                if (project.id === internshipProjects.length - 1) {
                     divide = false;
                 }
                 return (

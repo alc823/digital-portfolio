@@ -1,7 +1,6 @@
 import React from 'react';
 import './AboutMe.css';
 // import useState from 'react';
-import {Carousel} from 'react-bootstrap';
 import ArrowBackIosRoundedIcon from '@material-ui/icons/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
 import { Fade } from '@material-ui/core';
@@ -15,7 +14,7 @@ function AboutMe(props) {
 
     return (
         <div className="about-me">
-            {props.index == 0 &&
+            {props.index === 0 &&
             <Fade in={props.show0}>
             <Container className="main">
                 
@@ -39,7 +38,7 @@ function AboutMe(props) {
             </Container>
             </Fade>
             }
-            {props.index == 1 &&
+            {props.index === 1 &&
             <Fade in={props.show1}>
             <Container className="about-me-section">
                 
@@ -72,7 +71,7 @@ function AboutMe(props) {
             </Container>
             </Fade>
             }
-            {props.index == 2 && 
+            {props.index === 2 && 
             <Fade in={props.show2}>
             <Container className="about-me-section">
                 

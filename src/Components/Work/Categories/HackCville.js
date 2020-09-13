@@ -7,7 +7,7 @@ function HackCville() {
         <div className="project-info">
         {hackCvilleProjects.map(project => {
             var divide = true;
-            if (project.id == hackCvilleProjects.length - 1) {
+            if (project.id === hackCvilleProjects.length - 1) {
                 divide = false;
             }
             return (
@@ -20,12 +20,12 @@ function HackCville() {
                     <br/>
                     <div className="project-technologies">Technologies: {project.technology}</div>
                     <div className="project-languages">Languages: {project.languages}</div>
-                    {project.deploymentLink != "" &&
+                    {project.deploymentLink !== "" &&
                     <div><a href={project.deploymentLink} className="project-deploymentLink">See project</a></div>
                     }
-                    {project.presentationLink != "" &&
+                    {project.presentationLink !== "" &&
                     <div><a href={project.presentationLink} className="project-presentationLink">See presentation</a></div>}
-                    {project.codeLink != "" &&
+                    {project.codeLink !== "" &&
                     <a href={project.codeLink} className="project-deploymentLink">See code</a>
                     }
                     {divide && <hr/>}

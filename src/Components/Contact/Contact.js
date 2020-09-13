@@ -12,10 +12,10 @@ function Contact() {
             </div><br/>
             <div style={{display:"inline"}}>
             <a href={"https://www.linkedin.com/in/annie-cao-at-uva/"}>
-                <img src={"https://image.flaticon.com/icons/svg/174/174857.svg"} className="icon"/>
+                <img src={"https://image.flaticon.com/icons/svg/174/174857.svg"} className="icon" alt="linked in logo"/>
             </a>
             <a href={"https://github.com/alc823"}>
-                <img src={"https://image.flaticon.com/icons/png/512/25/25231.png"} className="icon"/>
+                <img src={"https://image.flaticon.com/icons/png/512/25/25231.png"} className="icon" alt="github logo"/>
             </a>
             </div>
             

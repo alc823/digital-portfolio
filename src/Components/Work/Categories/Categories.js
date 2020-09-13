@@ -1,6 +1,5 @@
 import React from 'react';
 import './Categories.css';
-import {Row, Col, Container} from 'react-bootstrap';
 import Internship from './Internship';
 import Class from './Class';
 import HackCville from './HackCville';
@@ -104,19 +103,6 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     // width: '20vw',
-    backgroundColor: theme.palette.background.paper,
-    display: 'flex',
-    height: 224,
-  },
-  tabs: {
-    borderRight: `1px solid ${theme.palette.divider}`,
-  },
-}));
-
-const useStylesSmall = makeStyles((theme) => ({
-  root: {
-    // flexGrow: 1,
-    width: '5vw',
     backgroundColor: theme.palette.background.paper,
     display: 'flex',
     height: 224,

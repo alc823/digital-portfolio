@@ -7,7 +7,7 @@ function Class() {
         <div className="project-info">
         {classProjects.map(project => {
             var divide = true;
-            if (project.id == classProjects.length - 1) {
+            if (project.id === classProjects.length - 1) {
                 divide = false;
             }
             return (
@@ -21,7 +21,7 @@ function Class() {
                     <br/>
                     <div className="project-technologies">Technologies: {project.technology}</div>
                     <div className="project-languages">Languages: {project.languages}</div>
-                    {project.deploymentLink != "" &&
+                    {project.deploymentLink !== "" &&
                     <a href={project.deploymentLink} className="project-deploymentLink">See project</a>
                     }
                     {divide && <hr/>}
