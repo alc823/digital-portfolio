@@ -17,8 +17,8 @@
 
 .nav-option:hover {
     transform: translateY(-2px);
-    color: black;
-    opacity: 75%;
+    color: rgb(128, 128, 128);
+    /* opacity: 75%; */
     text-decoration: none;
   }
 

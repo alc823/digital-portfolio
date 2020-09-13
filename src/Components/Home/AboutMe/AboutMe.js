@@ -22,7 +22,7 @@ function AboutMe(props) {
                 <Row>
                     <Col>
                         <div className="main-header">Annie Cao</div>
-                        {/* <div>test</div> */}
+                        <div>test</div>
                         <a href={resume} download>Download Resume</a><br/>
                         <a href={transcript} download>Download Transcript</a>
                         {/* <div className="main-subheader">Developer. Teacher. Creator.</div> */}
