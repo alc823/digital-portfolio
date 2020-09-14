@@ -13,13 +13,14 @@ export const internshipProjects = [
         coding a side menu to frame the entire app, integrating OpenWeather API for live weather data, designing and 
         coding a template for a tab holding forms and documents, and designing and coding a template for the home page
         of the app.`,
+        descriptionExtend: "",
         technology: "React Native, Android Studio, Figma, OpenWeather API",
         languages: "JavaScript",
         id: 0
     },
     {
         title: "PreHealthPivot Website",
-        date: "August 2020",
+        date: "July 2020 - August 2020",
         company: "PreHealthPivot",
         role: "Website Editing and Development Intern",
         description: `In the main development project, I worked with a team of 3 people to build a custom website for PreHealthPivot, based on their current
@@ -29,9 +30,36 @@ export const internshipProjects = [
         
         Before the main development project, I also worked with another intern to implement a new feature on the current site: we imbedded a Google form into
         the site and designed a Python script that called Google Sheets API and SendGrid API to automatically email recipients once they completed the form.`,
+        descriptionExtend: "",
         technology: "React, React Bootstrap",
         languages: "JavaScript, Python",
         id: 1
+    },
+    {
+        title: "IT Acceleration Projects",
+        date: "May 2019 - August 2019",
+        company: "ResMed",
+        role: "IT Acceleration Intern",
+        description: `As an IT Acceleration intern, I completed a series of projects devoted towards improving the efficiency and effectiveness of the IT department. These
+        tasks were both administrative and technical in nature. Here, I discuss three projects specifically: Early Adopters Program, listserv cleaning, and drafting of technical documentation.
+        `,
+        descriptionExtend: [
+            `(1) Regarding the Early Adopters Program, I worked with another intern to initiate a program where project managers could post listings about what they were working on before they went live, and
+            interested employees throughout ResMed's global workforce could then reach out and offer to test their project and offer feedback; in this task, we had to reach out to project managers, understand their
+            projects and goals, and design and implement a platform for the program via SharePoint Online.`,
+
+            `(2) The listserv cleaning task was needed because ResMed's listserv database was filled with outdated/obsolete
+            listservs. My task over the summer was to reach out to all listserv owners in the IT department globally, record information regarding what listservs they intenteded to keep and any updates they wanted, and draft 
+            PowerShell scripts to filter, update, and delete listservs based on the information collected. I worked with a Senior Endpoint Systems Engineer to accompilsh this task.`,
+            
+            `(3) At the time, the IT department
+            was generating a new site on SharePoint Online due to many obsolete/inefficient features of the previous site; one of my roles in hepling to implement this new site was to draft technical documentation for the 
+            technologies that the IT department and company as a whole was using. This task involved meeting with company experts in these technologies, understanding what should be conveyed to the peopel using these technologies,
+            creating/managing attached documents/guides for these technologies, and designing and creating the SharePoint pages to reflect this information, keeping in mind UI/UX principles for easy usage.`
+        ],
+        technology: "Excel, SharePoint Online, SnapComms",
+        languages: "PowerShell",
+        id: 2
     }
 ]
 

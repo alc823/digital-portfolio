@@ -22,6 +22,16 @@ function Internship(props) {
                         <div className="project-associations">{project.company} | {project.role}</div>
                         <br/>
                         <div className="project-description">{project.description}</div>
+                        {project.descriptionExtend !== '' && 
+                        <div className="project-description">
+                            {project.descriptionExtend.map(extend => {
+                                return (
+                                    <div>
+                                        <br/>{extend}
+                                    </div>
+                                );
+                            })}
+                        </div>}
                         <br/>
                         <div className="project-technologies">Technologies: {project.technology}</div>
                         <div className="project-languages">Languages: {project.languages}</div>
