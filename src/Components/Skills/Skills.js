@@ -8,11 +8,10 @@ function Skills() {
     return (
         <Container className="skills">
             <Row>
-                <Col className="skill-column">
+                <Col className="skill-column" lg={true}>
                 <TechnicalSkills/>
                 </Col>
-                {/* <div className="first-column"></div> */}
-                <Col className="skill-column">
+                <Col className="skill-column" lg={true}>
                 <SoftSkills/>
                 </Col>
             </Row>

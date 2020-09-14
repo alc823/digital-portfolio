@@ -50,12 +50,6 @@ function Home() {
                 </Col>
             </Row>
             </Container>
-            {/* <div className="header">
-            <Header/>
-            </div>
-            <div className="aboutme">
-            <AboutMe className="aboutme"/>
-            </div> */}
             
         </div>
     )

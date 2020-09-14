@@ -17,7 +17,8 @@ function Class() {
                     <div className="project-associations">{project.class}</div>
                     <div className="project-associations">{project.role}</div>
                     <br/>
-                    <div className="project-description">{project.description}</div>
+                    <div className="project-description">{project.description}</div><br/>
+                    <div>{project.specific}</div>
                     <br/>
                     <div className="project-technologies">Technologies: {project.technology}</div>
                     <div className="project-languages">Languages: {project.languages}</div>

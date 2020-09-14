@@ -5,6 +5,15 @@ import {hackCvilleProjects} from './Projects.js';
 function HackCville() {
     return (
         <div className="project-info">
+        <h4>What is Launch?</h4>
+        <div>I participated in an internship preparation program by the company HackCville called Launch in the academic year 2019-2020. In
+            this program, I learned soft skills through resume/interview workshops as well as many technical skills having to do 
+            mainly with React and web development. Soft skill workshops were primarily in fall, and there were three technical workshops
+            in the spring. These sessions were known as "Countdown" sessions. Finally, the latter part of the program arrived in June; this involved a three-week
+            intensive training period where students in Launch would complete a series of hands-on projects, both individually and in groups. 
+            These are some of the projects I did as a part of Launch.
+        </div>
+        <hr/>
         {hackCvilleProjects.map(project => {
             var divide = true;
             if (project.id === hackCvilleProjects.length - 1) {
@@ -21,12 +30,17 @@ function HackCville() {
                     <div className="project-technologies">Technologies: {project.technology}</div>
                     <div className="project-languages">Languages: {project.languages}</div>
                     {project.deploymentLink !== "" &&
-                    <div><a href={project.deploymentLink} className="project-deploymentLink">See project</a></div>
+                    <div style={{display:'inline'}}>
+                        <a href={project.deploymentLink} className="project-deploymentLink">See project</a>
+                    </div>
                     }
-                    {project.presentationLink !== "" &&
-                    <div><a href={project.presentationLink} className="project-presentationLink">See presentation</a></div>}
+                    {/* {project.presentationLink !== "" &&
+                    <div>
+                        <a href={project.presentationLink} className="project-presentationLink">See presentation</a>
+                    </div>
+                    } */}
                     {project.codeLink !== "" &&
-                    <a href={project.codeLink} className="project-deploymentLink">See code</a>
+                    <div><a href={project.codeLink} className="project-deploymentLink">See code</a></div>
                     }
                     {divide && <hr/>}
                 </div>

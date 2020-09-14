@@ -35,8 +35,8 @@ const softSkills = [
     },
     {
         title: "Communication",
-        description: `Part of my secretarial duties mentioned previously also included sending out mass communications to
-        club members about upcoming events, requirements, and any general information.`
+        description: `As a tutor and now a TA for the course Software Development Methods (CS 2110), I have many one-on-one
+        interactions and must regularly consider how to communicate most effectively.`
     },
     
     {

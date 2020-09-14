@@ -17,3 +17,10 @@
         padding-left: 2vw;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .work{
+        padding-right:1vw;
+        padding-left: 1vw;
+    }
+}

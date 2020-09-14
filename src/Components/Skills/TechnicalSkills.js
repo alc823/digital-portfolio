@@ -35,13 +35,13 @@ const technicalSkills = [
     },
     {
         title: "Courses",
-        description: `I've taken introductory and advanced computer science courses, including Algorithms and Data
-        Structures and Representation. I am currently taking Cybersecurity and Computer Architecture.`
+        description: `I've taken introductory and advanced computer science courses, including Algorithms and Program and Data Representation. 
+        I am currently taking Cybersecurity and Computer Architecture.`
     },
     {
         title: "Interdisciplinary",
         description: `Through my coursework, I am also familiar with statistical and mathematical knowledge. I can
-        analyze data with R and SAS, and I have learned skills in probability and linear algebra.`
+        analyze data with R and SAS, and I am learning/have learned skills in probability and linear algebra.`
     }
 ]
 
@@ -51,54 +51,6 @@ function TechnicalSkills() {
     return (
         <div>
            <div>Technical Skills</div>
-           {/* <Container>
-               <Row>
-                   <Col>
-                    <Card className={classes.root} variant="outlined">
-                        <CardContent>
-                            <div className="skill-header">Full-stack Development</div>
-                            <div className="skill-description">Much of my project work has been concentrated on full-stack or front-end development. I've used
-                                Django and CakePHP, but primarily I use React. Databases I've used include MySQL, PostgreSQL, and Firebase.
-                            </div>
-                        </CardContent>
-                        </Card>
-                   </Col>
-                   <Col>
-                    <Card className={classes.root} variant="outlined">
-                        <CardContent>
-                            <div className="skill-header">Languages</div>
-                            <div className="skill-description">
-                                I have moderate to high technical proficiency in Java, Python, C++, and JavaScript. I have 
-                                also dabbled in C#, C, PHP, and command-line languages such as Bash and PowerShell.
-                            </div>
-                        </CardContent>
-                        </Card>
-                   </Col>
-               </Row>
-               <Row>
-                   <Col>
-                        <Card className={classes.root} variant="outlined">
-                            <CardContent>
-                                <div className="skill-header">Courses</div>
-                                <div className="skill-description">I've taken introductory and advanced computer science courses, including Algorithms and Data
-                                    Structures and Representation. I am currently taking Cybersecurity and Computer Architecture.
-                                </div>
-                            </CardContent>
-                        </Card>
-                   </Col>
-                   <Col>
-                        <Card className={classes.root} variant="outlined">
-                            <CardContent>
-                                <div className="skill-header">Interdisciplinary</div>
-                                <div className="skill-description">Through my coursework, I am also familiar with statistical and mathematical knowledge. I can
-                                    analyze data with R and SAS, and I have learned skills in probability and linear algebra.
-                                </div>
-                            </CardContent>
-                        </Card>
-                   </Col>
-               </Row>
-           </Container> */}
-
            {technicalSkills.map(skill => {
                return (
                 <Card className={classes.root} variant="outlined">

@@ -24,3 +24,13 @@
         font-size: 16px;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .project-info {
+        width: 50vw;
+        font-size: 14px;
+    }
+    .project-title {
+        font-size: 16px;
+    }
+}

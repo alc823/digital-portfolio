@@ -25,5 +25,5 @@
 .nav-option--active {
     border-bottom: 3px solid #797979;
     border-radius: 2px;
-    transition: border-bottom .5s ease-in-out;
+    transition: .5s ease-in-out;
   }

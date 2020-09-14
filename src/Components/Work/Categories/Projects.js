@@ -22,7 +22,13 @@ export const internshipProjects = [
         date: "August 2020",
         company: "PreHealthPivot",
         role: "Website Editing and Development Intern",
-        description: `I worked with a team of 3 people.`,
+        description: `In the main development project, I worked with a team of 3 people to build a custom website for PreHealthPivot, based on their current
+        site on SquareSpace. The custom site was recommended due to the limitations that building on SquareSpace was imposing, such as difficulty
+        integrating a backend, limits in API usage, etc. The team and I used React as our primary building tool, and we mainly built out the front end and matched
+        the appearance to the current site using CSS and Bootstrap styling.
+        
+        Before the main development project, I also worked with another intern to implement a new feature on the current site: we imbedded a Google form into
+        the site and designed a Python script that called Google Sheets API and SendGrid API to automatically email recipients once they completed the form.`,
         technology: "React, React Bootstrap",
         languages: "JavaScript, Python",
         id: 1
@@ -35,7 +41,25 @@ export const classProjects = [
         date: "February 2020 - April 2020",
         class: "Advanced Software Development Techniques (CS 3240)",
         role: "Requirements Manager and General Developer",
-        description: `description`,
+        description: `I worked in a team of 5 individuals, including myself, to build a web application for students to post, browse, and exchange textbooks amongst
+        one another. This was a semester-long project and incorporated agile development, where we would have weekly standups with an assigned TA as our supervisor. We
+        used Django as our full-stack framework with PostgreSQL as our backend and practiced continuous integration and test-driven development by using Travis CI; our
+        application was hosted on the cloud PaaS Heroku. Our frontend work consisted mainly of HTML and Bootstrap 4, with some CSS styling. Within the project,
+        we created data models for our backend, integrated APIs such as Google Sign-in and SendGrid Email API, and received and incorporated feedback regarding user experience.
+        `,
+        specific: `
+        My specific tasks as the requirements manager included leading the process of requirements elicitation and 
+        collecting stakeholder data with the help of my team via a survey with Google Forms and individual interviews
+        and drafting and managing a spreadsheet with user stories and story points. My individual assignment
+        was to write the official requirements documentation for our group project, which included results and data from the requirements elicitation process,
+        organization of functional requirements ordered by priotization, a list of nonfunctional requirements and constraints, and all planned/potential features
+        for the project. 
+        
+        My specific tasks as a developer included setting up our backend PostgreSQL server in the context of Django, developing the form and functionality for posting textbook advertisements,
+        creating the profile page and user model, designing and implementing the textbook advertisement page, enabling image upload for textbook advertisements, and improving
+        basic user experience qualities throughout the site. As a note, Heroku's database is ephemeral in nature, so uploaded images would disappear after a day or two; to fix this,
+        I incorporated AWS S3 to store images. However, we did not include this feature into our final product due to trial limitations.
+        `,
         technology: "Django, Travis CI, Heroku, PostgreSQL, Bootstrap 4",
         languages: "Python, HTML/CSS",
         deploymentLink:"https://textbooks-exchange.herokuapp.com/",
@@ -46,7 +70,16 @@ export const classProjects = [
         date: "October 2018 - November 2018",
         class: "Introduction to Programming (CS 1110)",
         role: "Co-programmer",
-        description: `I worked with a partner to create a Mario-like game using Pygame.`,
+        description: `I worked with a partner to create a Mario-like game using Pygame. This was the final project for the first introductory CS course I had taken at 
+        university. We used Pygame in the context of a specific file created by our instructors, which modified and created some methods that we were expected to mainly use.
+        Our project was a platformer game, much like regular Mario, but with a "college" spin, in that the character was a student, and items in the game would relate to that context (e.g.,
+        collecting money to save up for paying off student loans).`,
+        specific: 
+        `
+        Functional tasks included setting up a game display environment to show graphics to the player,
+        incorporating a scrolling screen that moves with the player, designing enemies to move back and forth, and incorporating jumping physics (i.e., the characters should accelerate downwards
+        as they fall.).
+        `,
         technology: "Pygame",
         languages: "Python",
         deploymentLink:"",
@@ -58,10 +91,15 @@ export const hackCvilleProjects = [
     {
         title: "NormWear",
         date: "June 2020",
-        type: "Group Project",
-        description: `description`,
-        technology: "React, React Bootstrap",
-        languages: "JavaScript",
+        type: "Group Project | 4 people | 1 week",
+        description: `Normwear is a referral application where users accumulate points and win prizes based on how many people they can
+        refer to the app. This project was meant to mimic real referral apps, so users have logins, can keep track of their points, and
+        find information about the company (here, we made a fictional company called NormWear). We also implemented an admin dashboard where
+        administrators can see user information, including login information and how many points each person has. Administrators can also use the 
+        dashboard to mark who has received a reward. We used React and React Bootstrap for frontend development and used Firebase as our backend. Note
+        that much of our coding was done on VS Code Live Share.`,
+        technology: "React, React Bootstrap, Firebase",
+        languages: "JavaScript, CSS",
         deploymentLink:"https://normwear.netlify.app/",
         presentationLink:"https://docs.google.com/presentation/d/1aX4uHfkF1-wStyJaIp9UMNbojFvghTApDKzGsbAn-t4/edit?usp=sharing",
         codeLink:"https://github.com/danielbaker129/client-scenario",
@@ -70,10 +108,14 @@ export const hackCvilleProjects = [
     {
         title: "War-like Card Game",
         date: "May 2020",
-        type: "Group Project",
-        description: `description`,
-        technology: "React, React Bootstrap",
-        languages: "JavaScript",
+        type: "Solo Project | 1 week",
+        description: `This was one of two solo projects assigned to us during the second week of intensive training, while we were working on
+        the project below, Restaurants on the Corner. The other project was to implement a user dashboard, and we were told to choose one to complete
+        and ultimately present. I describe this card game as "war-like" because it implements the very basic functionalities of war, where the player and their
+        robot opponent draw random cards, and whichever card as the highest suite wins; this game also keeps track of ties. However, the feature in war where
+        players obtain the cards they win has not been implemented.`,
+        technology: "React, React Bootstrap, Firebase",
+        languages: "JavaScript, CSS",
         deploymentLink:"",
         presentationLink:"https://docs.google.com/presentation/d/1byX2LchKL3TqqGo11oaY4r6JvRE_HLngwNNEjvssmyE/edit?usp=sharing",
         codeLink:"https://github.com/alc823/war-card-game",
@@ -82,10 +124,13 @@ export const hackCvilleProjects = [
     {
         title: "Restaurants on the Corner",
         date: "May 2020",
-        type: "Group Project",
-        description: `description`,
+        type: "Group Project | 3 people | 1 week",
+        description: `This project shows restaurants on the Corner in Charlottesville using Google Places API. Due to limitations 
+        in the API usage, only 20 locations may show at a time. We also incorporated the Leaflet API to display a map of all the locations
+        returned form the Google Places API request. Additional features include a search bar and progress on a filter function.
+        Note that much of our coding was done on VS Code Live Share.`,
         technology: "React, React Bootstrap",
-        languages: "JavaScript",
+        languages: "JavaScript, CSS",
         deploymentLink:"",
         presentationLink:"",
         codeLink:"https://github.com/alc823/restaurant-application",
@@ -94,10 +139,14 @@ export const hackCvilleProjects = [
     {
         title: "Intermittent Fasting Timer",
         date: "May 2020",
-        type: "Single Page Application Exercise",
-        description: `description`,
+        type: "Group Project | 3 people | 1 week",
+        description: `The Intermittent Fasting Timer is an application where users set a timer for how long they would like to fast, as a part of their
+        intermittent fasting lifestyle. Users receive randomized encouraging phrases as the timer runs, and the timer runs with a graphic visual of their progress. Users
+        have the option to stop the timer if they break the fast. This application also offers a history section, where users may view their past fasts and make
+        notes about them. The records section allows users to see certain statistics about their fasts, including overall pass rate. Upon passing a fast,
+        confetti flows down from the top of thet screen.`,
         technology: "React, React Bootstrap",
-        languages: "JavaScript",
+        languages: "JavaScript, CSS",
         deploymentLink:"https://intermittent-fasting-tracker.netlify.app/",
         presentationLink:"https://docs.google.com/presentation/d/10haG7otDNudpfjb3qYM5HbIGUA3qOvgXKfZCPuAENwo/edit?usp=sharing",
         codeLink:"https://github.com/colemanjenkins/intermittent-fasting-timer",
@@ -106,10 +155,13 @@ export const hackCvilleProjects = [
     {
         title: "Note Taker",
         date: "May 2020",
-        type: "Single Page Application Exercise",
-        description: `description`,
-        technology: "React, React Bootstrap",
-        languages: "JavaScript",
+        type: "Solo Project | Countdown",
+        description: `This project was the second solo project assiged after the last technical Countdown session, right before the latter part of the program,
+        when intensive training began. The note taker app was an exercise in getting accustomed to state; this app allows users to make notes, assign categories
+        to each note, and filter notes by category. Again, some emphasis was put on making the application visually appealing; we were encouraged, with this project,
+        to experiment with how much technical functionality we could implement as well.`,
+        technology: "React",
+        languages: "JavaScript, CSS",
         deploymentLink:"",
         presentationLink:"",
         codeLink:"https://github.com/alc823/noteTaker",
@@ -118,10 +170,12 @@ export const hackCvilleProjects = [
     {
         title: "Random Quote Generator",
         date: "March 2020",
-        type: "Single Page Application Exercise",
-        description: `description`,
-        technology: "React, React Bootstrap",
-        languages: "JavaScript",
+        type: "Solo Project | Countdown",
+        description: `This project was the first solo project assigned after one of the technical Countdown sessions. The random quote generator
+        displays different quotes at the click of a button. This was an introductory exercise to get our feet wet with React and get introduced to
+        using state. A large emphasis of this mini-project was on experimenting with how visually appealing and unique we could make the app.`,
+        technology: "React",
+        languages: "JavaScript, CSS",
         deploymentLink:"",
         presentationLink:"",
         codeLink:"https://github.com/alc823/quoteGenerator",

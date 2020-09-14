@@ -105,7 +105,7 @@ const useStyles = makeStyles((theme) => ({
     // width: '20vw',
     backgroundColor: theme.palette.background.paper,
     display: 'flex',
-    height: 224,
+    height: 200,
   },
   tabs: {
     borderRight: `1px solid ${theme.palette.divider}`,
@@ -137,8 +137,8 @@ export default function VerticalTabs() {
         className={classes.tabs}
       >
         <Tab label="Internship" {...a11yProps(0)} className="tab-label"/>
-        <Tab label="Classwork" {...a11yProps(1)} className="tab-label"/>
-        <Tab label="HackCville" {...a11yProps(2)} className="tab-label"/>
+        <Tab label="Class" {...a11yProps(1)} className="tab-label"/>
+        <Tab label="Launch" {...a11yProps(2)} className="tab-label"/>
         <Tab label="Other" {...a11yProps(3)} className="tab-label"/>
       </Tabs>
       <TabPanel value={value} index={0}>
