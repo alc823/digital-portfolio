@@ -11,12 +11,12 @@ function Contact() {
                 <div>Cell Phone: +1 (757) 291-8155</div>
             </div><br/>
             <div style={{display:"inline"}}>
-            <a href={"https://www.linkedin.com/in/annie-cao-at-uva/"}>
-                <img src={"https://image.flaticon.com/icons/svg/174/174857.svg"} className="icon" alt="linked in logo"/>
-            </a>
-            <a href={"https://github.com/alc823"}>
-                <img src={"https://image.flaticon.com/icons/png/512/25/25231.png"} className="icon" alt="github logo"/>
-            </a>
+            <img src={"https://image.flaticon.com/icons/svg/174/174857.svg"} className="icon" alt="linked in logo"
+                onClick={()=> window.open("https://www.linkedin.com/in/annie-cao-at-uva/", "_blank")}
+            />
+            <img src={"https://image.flaticon.com/icons/png/512/25/25231.png"} className="icon" alt="github logo"
+                onClick={()=> window.open("https://github.com/alc823", "_blank")}
+            />
             </div>
             
         </div>
