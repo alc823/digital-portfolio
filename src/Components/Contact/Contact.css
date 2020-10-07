@@ -3,6 +3,7 @@
     padding-top: 20vh;
     padding-right: var(--padding-width);
     padding-left: var(--padding-width);
+    padding-bottom: 20vh;
 }
 
 .icon {

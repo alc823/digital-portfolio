@@ -24,8 +24,8 @@ const useStyles = makeStyles({
 
 const technicalSkills = [
     {
-        title: "Full-stack Development",
-        description: `Much of my project work has been concentrated on full-stack or front-end development. I've used
+        title: "Web Development",
+        description: `Much of my project work has been concentrated on full stack or front-end development. I've used
         technologies such as Django and CakePHP, but primarily I use React.`
     },
     {

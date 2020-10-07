@@ -31,16 +31,11 @@ function HackCville() {
                     <div className="project-languages">Languages: {project.languages}</div>
                     {project.deploymentLink !== "" &&
                     <div style={{display:'inline'}}>
-                        <a href={project.deploymentLink} className="project-deploymentLink">See project</a>
+                        <a href={project.deploymentLink} target="_blank" rel="noopener noreferrer">See project</a>
                     </div>
                     }
-                    {/* {project.presentationLink !== "" &&
-                    <div>
-                        <a href={project.presentationLink} className="project-presentationLink">See presentation</a>
-                    </div>
-                    } */}
                     {project.codeLink !== "" &&
-                    <div><a href={project.codeLink} className="project-deploymentLink">See code</a></div>
+                    <div><a href={project.codeLink} target="_blank" rel="noopener noreferrer">See code</a></div>
                     }
                     {divide && <hr/>}
                 </div>

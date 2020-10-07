@@ -1,12 +1,10 @@
 import React from 'react';
 import './AboutMe.css';
-// import useState from 'react';
 import ArrowBackIosRoundedIcon from '@material-ui/icons/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
 import { Fade } from '@material-ui/core';
 import {Row, Col, Container} from 'react-bootstrap';
 import resume from './Annie_Cao_CV_Sept_14_2020.pdf';
-import transcript from './Annie_Cao_September2020_Transcript.pdf';
 
 function AboutMe(props) {
 
@@ -21,10 +19,7 @@ function AboutMe(props) {
                 <Row>
                     <Col>
                         <div className="main-header">Annie Cao</div>
-                        {/* <div>test</div> */}
                         <a href={resume} download>Download Resume</a><br/>
-                        <a href={transcript} download>Download Transcript</a>
-                        {/* <div className="main-subheader">Developer. Teacher. Creator.</div> */}
                     </Col>
                 </Row>
                 <Row>

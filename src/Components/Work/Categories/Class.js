@@ -23,7 +23,7 @@ function Class() {
                     <div className="project-technologies">Technologies: {project.technology}</div>
                     <div className="project-languages">Languages: {project.languages}</div>
                     {project.deploymentLink !== "" &&
-                    <a href={project.deploymentLink} className="project-deploymentLink">See project</a>
+                        <a href={project.deploymentLink} target="_blank" rel="noopener noreferrer">See project</a>
                     }
                     {divide && <hr/>}
                 </div>

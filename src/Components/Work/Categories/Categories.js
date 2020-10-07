@@ -4,61 +4,6 @@ import Internship from './Internship';
 import Class from './Class';
 import HackCville from './HackCville';
 import Other from './Other';
-
-// function Categories() {
-
-//     const [index, setIndex] = React.useState(0);
-//     const [show0, setShow0] = React.useState(true);
-//     const [show1, setShow1] = React.useState(false);
-//     const [show2, setShow2] = React.useState(false);
-
-//     const handleSelect = (selectedIndex) => {
-//         setIndex(selectedIndex);
-//         toggleShow(selectedIndex);
-//     };
-
-//     const toggleShow = (index) => {
-//         if (index == 0) {
-//             setShow0(true);
-//             setShow1(false);
-//             setShow2(false);
-//         } else if (index == 1) {
-//             setShow0(false);
-//             setShow1(true);
-//             setShow2(false);
-//         } else {
-//             setShow0(false);
-//             setShow1(false);
-//             setShow2(true);
-//         }
-//     }
-
-//     return(
-//         <Container>
-//             <Row>
-//                 <Col className="category">
-//                     <div>Internship</div>
-//                 </Col>
-//                 <Col className="category">
-//                     <div>Classwork</div>
-//                 </Col>
-//                 <Col className="category">
-//                     <div>Other</div>
-//                 </Col>
-//             </Row>
-//             <Row style={{marginTop:'5vh'}}>
-//                 <Col>
-//                     {index==0 && <Internship/>}
-//                     {index==1 && <Class/>}
-//                     {index==2 && <Other/>}
-//                 </Col>
-//             </Row>
-//         </Container>
-//     )
-// }
-
-// export default Categories;
-
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import Tabs from '@material-ui/core/Tabs';
@@ -102,7 +47,6 @@ function a11yProps(index) {
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    // width: '20vw',
     backgroundColor: theme.palette.background.paper,
     display: 'flex',
     height: 200,
@@ -113,12 +57,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function VerticalTabs() {
-
-  // if (window.innerWidth <= 600) {
-  //   const classes = useStylesSmall();
-  // } else {
-    
-  // }
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
@@ -156,3 +94,7 @@ export default function VerticalTabs() {
     </div>
   );
 }
+
+/**
+ * Tab menu from MaterialUI
+ */

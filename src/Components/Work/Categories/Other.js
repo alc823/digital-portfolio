@@ -21,10 +21,10 @@ function Other() {
                     <div className="project-technologies">Technologies: {project.technology}</div>
                     <div className="project-languages">Languages: {project.languages}</div>
                     {project.deploymentLink !== "" &&
-                    <div><a href={project.deploymentLink} className="project-deploymentLink">See project</a></div>
+                        <div><a href={project.deploymentLink} target="_blank" rel="noopener noreferrer">See project</a></div>
                     }
                     {project.codeLink !== "" &&
-                    <a href={project.codeLink} className="project-deploymentLink">See code</a>
+                        <a href={project.codeLink} target="_blank" rel="noopener noreferrer">See code</a>
                     }
                     {divide && <hr/>}
                 </div>

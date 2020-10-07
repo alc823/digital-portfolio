@@ -12,7 +12,6 @@ function NavigationMenu() {
             <NavLink exact to="/" className="nav-option" activeClassName="nav-option--active">About</NavLink>
             <NavLink to="/work" className="nav-option" activeClassName="nav-option--active">Work</NavLink>
             <NavLink to="/skills" className="nav-option" activeClassName="nav-option--active">Skills</NavLink>
-            {/* <Nav.Link href="/documents" className="nav-option" activeClassName="underline">Documents</Nav.Link> */}
             <NavLink to="/contact" className="nav-option" activeClassName="nav-option--active">Contact</NavLink>
           </Nav>
         </Navbar.Collapse>
