@@ -18,6 +18,25 @@ export const internshipProjects = [
         id: 0
     },
     {
+        title: "PreHealthPivot Website",
+        date: "July 2020 - January 2021",
+        company: "PreHealthPivot",
+        role: "Website Editing and Development Intern",
+        description: `In the main development project, I worked with a team of 3 people to build a custom website for PreHealthPivot, based on their current
+        site on SquareSpace. The custom site was recommended due to the limitations that building on SquareSpace was imposing, such as difficulty
+        integrating a backend, limits in API usage, etc. The team and I used React as our primary building tool, and we mainly built out the front end and matched
+        the appearance to the current site using CSS and Bootstrap styling. I continued this project in January 2021 and began to build out site functionality,
+        including the incorporation of Firebase Realtime Database, implementing user authentication and authorization, enabling responsive views, and 
+        building new custom sections for the website, amongst other similar tasks.
+        
+        Before the main development project, I also worked with another intern to implement a new feature on the current site: we imbedded a Google form into
+        the site and designed a Python script that called Google Sheets API and SendGrid API to automatically email recipients once they completed the form.`,
+        descriptionExtend: "",
+        technology: "React, React Bootstrap, Firebase Realtime Database",
+        languages: "JavaScript, Python",
+        id: 1
+    },
+    {
         title: "Mobile Town Application Template",
         date: "July 2020 - August 2020",
         company: "Digital Capital Solutions",
@@ -34,23 +53,6 @@ export const internshipProjects = [
         descriptionExtend: "",
         technology: "React Native, Android Studio, Figma, OpenWeather API",
         languages: "JavaScript",
-        id: 1
-    },
-    {
-        title: "PreHealthPivot Website",
-        date: "July 2020 - August 2020",
-        company: "PreHealthPivot",
-        role: "Website Editing and Development Intern",
-        description: `In the main development project, I worked with a team of 3 people to build a custom website for PreHealthPivot, based on their current
-        site on SquareSpace. The custom site was recommended due to the limitations that building on SquareSpace was imposing, such as difficulty
-        integrating a backend, limits in API usage, etc. The team and I used React as our primary building tool, and we mainly built out the front end and matched
-        the appearance to the current site using CSS and Bootstrap styling.
-        
-        Before the main development project, I also worked with another intern to implement a new feature on the current site: we imbedded a Google form into
-        the site and designed a Python script that called Google Sheets API and SendGrid API to automatically email recipients once they completed the form.`,
-        descriptionExtend: "",
-        technology: "React, React Bootstrap",
-        languages: "JavaScript, Python",
         id: 2
     },
     {
