@@ -4,7 +4,7 @@ import ArrowBackIosRoundedIcon from '@material-ui/icons/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
 import { Fade } from '@material-ui/core';
 import {Row, Col, Container} from 'react-bootstrap';
-import resume from './Annie_Cao_CV_Oct_1_2020.pdf';
+import resume from './Annie_Cao_CV_Mar_25_2021.pdf';
 
 function AboutMe(props) {
 
@@ -80,7 +80,7 @@ function AboutMe(props) {
                     <br/><br/>
                     At the same time, I also wanted to hone
                     my interest in statistical analysis, which I had already been learning as a part of my premed journey. Now, I am
-                    a prospective biostatistics double major with CS!
+                    a double major in CS and biostatistics!
                     </div>
                     </Col>
                 </Row>
