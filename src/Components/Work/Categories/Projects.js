@@ -1,5 +1,23 @@
 export const internshipProjects = [
     {
+        title: "Social Media Application",
+        date: "January 2021 - Present",
+        company: "Digital Capital Solutions",
+        role: "Software Engineer Intern",
+        description: `I am currently working with a team of 4 people, to create
+        a social media application where users can share posts with each other, including images and text. 
+        Users have the ability to follow each other; create, edit, and delete posts; edit their profiles; search for other
+        users (with various search filters), and like and comment on other posts.
+
+        We have weekly standup meetings and are assigned 1-2 tasks to complete each week. My specific tasks have involved 
+        building out the infrastructures for user profiles and posts (including comments), generally working on UI, and enabling user 
+        interactions via liking posts, commenting, and following others.`,
+        descriptionExtend: "",
+        technology: "React Native, Android Studio, Firebase Realtime Database",
+        languages: "JavaScript",
+        id: 0
+    },
+    {
         title: "Mobile Town Application Template",
         date: "July 2020 - August 2020",
         company: "Digital Capital Solutions",
@@ -16,7 +34,7 @@ export const internshipProjects = [
         descriptionExtend: "",
         technology: "React Native, Android Studio, Figma, OpenWeather API",
         languages: "JavaScript",
-        id: 0
+        id: 1
     },
     {
         title: "PreHealthPivot Website",
@@ -33,7 +51,7 @@ export const internshipProjects = [
         descriptionExtend: "",
         technology: "React, React Bootstrap",
         languages: "JavaScript, Python",
-        id: 1
+        id: 2
     },
     {
         title: "IT Acceleration Projects",
@@ -59,7 +77,7 @@ export const internshipProjects = [
         ],
         technology: "Excel, SharePoint Online, SnapComms",
         languages: "PowerShell",
-        id: 2
+        id: 3
     }
 ]
 
