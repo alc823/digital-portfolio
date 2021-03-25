@@ -43,7 +43,6 @@ function AboutMe(props) {
                     <div className="about-me-description">
                         I am a junior and Echols Scholar at the University of Virginia studying
                     computer science in the College of Arts & Sciences and planning to graduate in May 2022.
-                    I am currently searching for a software engineering internship for summer 2021!
                     </div><br/>
                     <div className="about-me-description">
                         When I'm not coding, I also tutor students from elementary, middle, and high school
