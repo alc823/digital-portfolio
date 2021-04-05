@@ -74,7 +74,7 @@ export const internshipProjects = [
             
             `(3) At the time, the IT department
             was generating a new site on SharePoint Online due to many obsolete/inefficient features of the previous site; one of my roles in hepling to implement this new site was to draft technical documentation for the 
-            technologies that the IT department and company as a whole was using. This task involved meeting with company experts in these technologies, understanding what should be conveyed to the peopel using these technologies,
+            technologies that the IT department and company as a whole was using. This task involved meeting with company experts in these technologies, understanding what should be conveyed to the people using these technologies,
             creating/managing attached documents/guides for these technologies, and designing and creating the SharePoint pages to reflect this information, keeping in mind UI/UX principles for easy usage.`
         ],
         technology: "Excel, SharePoint Online, SnapComms",
