@@ -1,21 +1,54 @@
 export const internshipProjects = [
     {
+        title: "Bond Analysis Automation",
+        date: "June 2021 - August 2021",
+        company: "TD Securities",
+        role: "Summer Analyst Intern",
+        description: `As part of the Quantitative and Modeling Analytics team, I primarily worked one-on-one with a supervisor on Project FIRST. This project
+        involved the development of a Python script to automate bond analysis and produce daily relative value analysis reports 
+        for the strategy team. The script would run automatically at the start
+        of each day to produce a PDF report showing yield curves, the richest and cheapest bonds, and various other analytical data about
+        bonds. These analytics were based off of the Nelson Siegel model and curve calculated for that day. Prior to this automation, bond analysis reports
+        were produced manually using an Excel spreadsheet with extensive VBA code.
+        
+        During development of the script, my tasks involved investigating TD Securities's internal UQL library, which was built in
+        C++ and adapted into a Python library. Understanding the library was crucial to integrating its functions into the overall script, as many
+        were pertinent to conducting bond analytics, such as functions that assisted in building the Nelson-Siegel curve. Similarly, I worked to translate
+        the VBA code in the bond analysis Excel spreadsheet to Python. In addition to combining existing resources and building upon
+        existing code, I helped contribute a endpoint to a REST API where bond information is pulled.
+        Together, I integrated these resources into one cohesive script, which was formatted using LaTeX. Although I primarily worked with a singular supervisor,
+        throughout these efforts, I had the opportunity to work with people around the globe, including Paris, Singapore, and London.
+        
+        A large emphasis was put on the flexibility of the final program. In addition to developing the script, I created a configuration file that could be
+        used to adjust the script's function for different types of bonds. For example, while the script was developed to handle American treasury government bonds, it was adapted to
+        also handle Australian government treasury bonds. Other configurations included controlling what was produced in the final report and aesthetic changes for easier
+        readability.
+
+        Ultimately, the final script produced integrated a variety of resources, including REST APIs, internal servers, and large amounts of data in order
+        to create a flexible, adaptable, and easy-to-use piece of software.
+        `,
+        descriptionExtend: "",
+        technology: "VS Code, UQL library, Internal APIs and Servers, Excel",
+        languages: "Python, VBA, LaTeX",
+        id: 0
+    },
+    {
         title: "Social Media Application",
-        date: "January 2021 - Present",
+        date: "January 2021 - April 2021",
         company: "Digital Capital Solutions",
         role: "Software Engineer Intern",
-        description: `I am currently working with a team of 4 people, to create
+        description: `I worked with a team of 4 people to create
         a social media application where users can share posts with each other, including images and text. 
         Users have the ability to follow each other; create, edit, and delete posts; edit their profiles; search for other
         users (with various search filters), and like and comment on other posts.
 
-        We have weekly standup meetings and are assigned 1-2 tasks to complete each week. My specific tasks have involved 
+        We had weekly standup meetings and were assigned 1-2 tasks to complete each week. My specific tasks involved 
         building out the infrastructures for user profiles and posts (including comments), generally working on UI, and enabling user 
         interactions via liking posts, commenting, and following others.`,
         descriptionExtend: "",
         technology: "React Native, Android Studio, Firebase Realtime Database",
         languages: "JavaScript",
-        id: 0
+        id: 1
     },
     {
         title: "PreHealthPivot Website",
@@ -34,7 +67,7 @@ export const internshipProjects = [
         descriptionExtend: "",
         technology: "React, React Bootstrap, Firebase Realtime Database",
         languages: "JavaScript, Python",
-        id: 1
+        id: 2
     },
     {
         title: "Mobile Town Application Template",
@@ -53,7 +86,7 @@ export const internshipProjects = [
         descriptionExtend: "",
         technology: "React Native, Android Studio, Figma, OpenWeather API",
         languages: "JavaScript",
-        id: 2
+        id: 3
     },
     {
         title: "IT Acceleration Projects",
@@ -78,12 +111,31 @@ export const internshipProjects = [
             creating/managing attached documents/guides for these technologies, and designing and creating the SharePoint pages to reflect this information, keeping in mind UI/UX principles for easy usage.`
         ],
         technology: "Excel, SharePoint Online, SnapComms",
-        languages: "PowerShell",
-        id: 3
+        languages: "PowerShell, VBA",
+        id: 4
     }
 ]
 
 export const classProjects = [
+    {
+        title: "Creative Corner (Expanded)",
+        date: "February 2021 - April 2021",
+        class: "Database Systems (CS 4750)",
+        role: "Software Developer",
+        description: `Loosely based on a past hackathon project (see Other tab), this project involved building a website where users could post and share
+        stories with one another. Users could post and edit stories as well as browse other stories and give comments on them. 
+        I worked in a team of 5 individuals, including myself, over the course of a semester.
+        `,
+        specific: `
+        My specific tasks within the project included contributing to the posting and editing mechanisms for user stories, building the search
+        functionality with filters, and improving the overall UI and design of the application. Additionally, another team member and I led the effort
+        towards creating thorough documentation for our website.
+        `,
+        technology: "Vim, SSH",
+        languages: "PHP, SQL",
+        deploymentLink:"http://cs.virginia.edu/~alc3pf/ajax/project/index.php",
+        id: 0
+    },
     {
         title: "Textbook Exchange",
         date: "February 2020 - April 2020",
@@ -111,7 +163,7 @@ export const classProjects = [
         technology: "Django, Travis CI, Heroku, PostgreSQL, Bootstrap 4",
         languages: "Python, HTML/CSS",
         deploymentLink:"https://textbooks-exchange.herokuapp.com/",
-        id: 0
+        id: 1
     },
     {
         title: "College Mario",
@@ -131,7 +183,7 @@ export const classProjects = [
         technology: "Pygame",
         languages: "Python",
         deploymentLink:"",
-        id: 1
+        id: 2
     }
 ]
 
@@ -233,7 +285,35 @@ export const hackCvilleProjects = [
 
 export const otherProjects = [
     {
-        title: "Creative Corner",
+        title: "Recycle Buddy",
+        associations: "HooHacks | Programmer",
+        date: "March 2021",
+        description: `I worked together with 3 other people in a 48-hour hackathon to develop a mobile application that employs machine
+        learning algorithms to classify images of trash. The app allows a user to upload an image and uses an ensemble classifier hosted on a 
+        Flask Rest API to classify the image as containing trash, a recyclable material, or a compostable material.   
+
+        Our work was split into two parts. The first phase of development involved developing an adequate machine learning algorithm for image classification
+        and creating a simple Rest API using Flask to host our algorithm. We decided on a Balanced Random Forest Classifier from the Scikit Learn python library and 
+        trained this model on data obtained from Kaggle. We were able to achieve an accuracy of over 90%, so we moved onto encapsulating our ML work into a Flask app.
+
+        Once the backend was completed, we began developing the mobile application using React Native. Our development was focused on Android machines since the majority
+        of our team owned Windows machines. I was chiefly in charge of the functionality of the app while my teammates focused on design.
+
+        One of the key challenges we ran into was transferring image data from our mobile application to our Flask server. While we did not resolve the exact issue
+        before the deadline, we used a workaround. Instead of attempting to directly transfer image data between the two parties, we used Google Firebase Storage to 
+        serve as the middle man, since it had good documentation and infrastructure for uploading and retrieving images. Our data flow was modified then so that our mobile
+        application would upload an image to Firebase Storage and make a separate REST call to our Flask server, indicating that an image was uploaded and should be retrieved.
+        The Flask server would then retrieve the image and return a prediction as the response to the REST call.
+        
+        All work was done virtually.`,
+        technology: "React Native, Flask, Jupyter Notebook, Firebase Storage",
+        languages: "Python, JavaScript",
+        deploymentLink: "https://devpost.com/software/recycle-buddy-wkc32q",
+        codeLink: "https://github.com/alc823/RecycleBuddies",
+        id: 0
+    },
+    {
+        title: "Creative Corner (Original)",
         associations: "RookieHacks | Co-designer and Co-programmer",
         date: "May 2020",
         description: `I participated in a hackathon hosted by Major League Hackers called RookieHacks. This hackathon was geared
@@ -241,11 +321,12 @@ export const otherProjects = [
         hackathon. My partner and I both didn't know PHP, so we decided to try to use CakePHP to build a website for a shared passion of ours, 
         creative writing. Thus, Creative Corner was born. Creative Corner was based on a CakePHP Getting Started guide; the website
         is intended to act as a hub for creative writers to receive daily prompts, write stories, share their stories with others, and browse
-        others' stories. We used Figma to design the application and CakePHP to code the app. We used MySQL for our backend.`,
+        others' stories. We used Figma to design the application and CakePHP to code the app. We used MySQL for our backend. This hackathon project
+        was expanded and built upon as a class project for Database Systems (CS 4750). See Class tab for more details.`,
         technology: "CakePHP, Figma, MySQL",
         languages: "HTML/CSS, PHP",
         deploymentLink:"https://devpost.com/software/rookiehacks101",
         codeLink:"https://github.com/stephanienmorton/Rookie-Hacks",
-        id: 0
+        id: 1
     }
 ]

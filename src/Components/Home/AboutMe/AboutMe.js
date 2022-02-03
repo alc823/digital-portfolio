@@ -4,7 +4,7 @@ import ArrowBackIosRoundedIcon from '@material-ui/icons/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
 import { Fade } from '@material-ui/core';
 import {Row, Col, Container} from 'react-bootstrap';
-import resume from './Annie_Cao_CV_Mar_25_2021.pdf';
+import resume from './Annie_Cao_CV_Nov_15_2021.pdf';
 
 function AboutMe(props) {
 
@@ -41,13 +41,12 @@ function AboutMe(props) {
                     <Col>
                     <div className="about-me-header">About Me</div><br/>
                     <div className="about-me-description">
-                        I am a junior and Echols Scholar at the University of Virginia studying
-                    computer science in the College of Arts & Sciences and planning to graduate in May 2022.
+                        I am a senior and Echols Scholar at the University of Virginia studying
+                    computer science in the College of Arts & Sciences and planning to graduate in May 2022. Currently,
+                    I am searching for a full-time position as a software engineer.
                     </div><br/>
                     <div className="about-me-description">
-                        When I'm not coding, I also tutor students from elementary, middle, and high school
-                        in a variety of subjects, including Python/programming, physics, and SAT preparation.
-                        In my free time, I like to draw (trying to get better at digital art right now!), game, 
+                        When I'm not coding, I like to draw (trying to get better at digital art right now!), game, 
                         and watch video essays about movies.
                     </div>
                     </Col>
@@ -74,8 +73,8 @@ function AboutMe(props) {
                     <div className="about-me-header">Interdiscriplinary Background</div><br/>
                     <div className="about-me-description">Although I am pursuing computer science as my college degree major,
                     my core background actually originated in the biological sciences, as I had been pursuing premedical courses
-                    and extracurriculars since high school, such as cancer research. I discovered my passion for CS in university,
-                    but continued to take biology and chemistry classes until this year. 
+                    and extracurriculars, such as cancer research, since high school. I discovered my passion for CS in university,
+                    but continued to take biology and chemistry classes up through my second year. 
                     <br/><br/>
                     At the same time, I also wanted to hone
                     my interest in statistical analysis, which I had already been learning as a part of my premed journey. Now, I am

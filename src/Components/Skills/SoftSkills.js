@@ -35,7 +35,8 @@ const softSkills = [
     },
     {
         title: "Communication",
-        description: `As a tutor and now a TA for the introductory course Software Development Methods (CS 2110), I have many one-on-one
+        description: `Having been a tutor and a TA for Software Development Methods (CS 2110), Machine Learning (CS 4774), and now the course 
+        Data Structures and Algorithms I (CS 2100), I have many one-on-one
         interactions with others and must regularly consider how to communicate most effectively.`
     },
     

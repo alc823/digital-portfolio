@@ -31,17 +31,19 @@ const technicalSkills = [
     {
         title: "Languages",
         description: `I have moderate to high technical proficiency in Java, Python, C++, and JavaScript. I have 
-        also dabbled in C#, C, PHP, and command-line languages such as Bash and PowerShell.`
+        also dabbled in C#, C, PHP, and command-line languages such as Bash and PowerShell. Additionally, I am comfortable with
+        SQL.`
     },
     {
         title: "Courses",
-        description: `I've taken introductory and advanced computer science courses, including Algorithms, Program and Data Representation, and Computer Architecture. 
-        I am currently taking Cloud Computing, Machine Learning, and Databases.`
+        description: `I've taken introductory and advanced computer science courses, including Algorithms, Program and Data Representation, Computer Architecture,
+        Cloud Computing, Machine Learning, Databases, Computer Networks, Artificial Intelligence, and Computer Graphics. I am currently
+        taking Operating Systems.`
     },
     {
         title: "Interdisciplinary",
         description: `Through my coursework, I am also familiar with statistical and mathematical knowledge. I can
-        analyze data with R and SAS, and I am learning/have learned skills in probability and linear algebra.`
+        analyze data with R and SAS, and have learned skills in probability and linear algebra.`
     }
 ]
 
