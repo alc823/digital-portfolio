@@ -4,7 +4,7 @@ import ArrowBackIosRoundedIcon from '@material-ui/icons/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
 import { Fade } from '@material-ui/core';
 import {Row, Col, Container} from 'react-bootstrap';
-import resume from './Annie_Cao_CV_Nov_15_2021.pdf';
+import resume from './Annie_Cao_CV_Mar_23_2022.pdf';
 
 function AboutMe(props) {
 
