@@ -26,7 +26,7 @@ const softSkills = [
     {
         title: "Teamwork",
         description: `Not only have I had plenty of experience working in groups in lab, projects, 
-        and general classwork, but I am also part of a casual dance club at UVA, where coordination and teamwork is key!`
+        and general classwork, but I was also part of a casual dance club at UVA, where coordination and teamwork was key!`
     },
     {
         title: "Organization",
@@ -35,9 +35,9 @@ const softSkills = [
     },
     {
         title: "Communication",
-        description: `Having been a tutor and a TA for Software Development Methods (CS 2110), Machine Learning (CS 4774), and now the course 
-        Data Structures and Algorithms I (CS 2100), I have many one-on-one
-        interactions with others and must regularly consider how to communicate most effectively.`
+        description: `Having been a tutor and a TA for Software Development Methods (CS 2110), Machine Learning (CS 4774), and the course 
+        Data Structures and Algorithms I (CS 2100), I had many one-on-one
+        interactions with others and had to regularly consider how to communicate most effectively.`
     },
     
     {

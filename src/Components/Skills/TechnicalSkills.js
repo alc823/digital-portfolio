@@ -37,8 +37,8 @@ const technicalSkills = [
     {
         title: "Courses",
         description: `I've taken introductory and advanced computer science courses, including Algorithms, Program and Data Representation, Computer Architecture,
-        Cloud Computing, Machine Learning, Databases, Computer Networks, Artificial Intelligence, and Computer Graphics. I am currently
-        taking Operating Systems.`
+        Cloud Computing, Machine Learning, Databases, Computer Networks, Artificial Intelligence, and Computer Graphics. I have also recently
+        taken Operating Systems.`
     },
     {
         title: "Interdisciplinary",

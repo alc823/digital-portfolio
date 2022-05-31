@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import profile from './profile_picture.jpeg';
+import profile from './annie_cao_photo.JPG';
 import {Image} from 'react-bootstrap';
 
 function Header() {

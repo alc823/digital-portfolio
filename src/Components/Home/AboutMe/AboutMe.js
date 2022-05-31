@@ -4,7 +4,7 @@ import ArrowBackIosRoundedIcon from '@material-ui/icons/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
 import { Fade } from '@material-ui/core';
 import {Row, Col, Container} from 'react-bootstrap';
-import resume from './Annie_Cao_CV_Mar_23_2022.pdf';
+import resume from './Annie_Cao_CV_May_31_2022.pdf';
 
 function AboutMe(props) {
 
@@ -41,8 +41,8 @@ function AboutMe(props) {
                     <Col>
                     <div className="about-me-header">About Me</div><br/>
                     <div className="about-me-description">
-                        I am a senior and Echols Scholar at the University of Virginia studying
-                    computer science in the College of Arts & Sciences and planning to graduate in May 2022. Currently,
+                        I recently graduated with a Bachelor's Degree from the University of Virginia (Class of 2022). I was
+                    an Echols Scholar and studied computer science and biostatistics in the College of Arts & Sciences. Currently,
                     I am searching for a full-time position as a software engineer.
                     </div><br/>
                     <div className="about-me-description">
@@ -71,13 +71,13 @@ function AboutMe(props) {
                 <Row>
                     <Col>
                     <div className="about-me-header">Interdiscriplinary Background</div><br/>
-                    <div className="about-me-description">Although I am pursuing computer science as my college degree major,
+                    <div className="about-me-description">Although I am pursuing software engineering as my career,
                     my core background actually originated in the biological sciences, as I had been pursuing premedical courses
                     and extracurriculars, such as cancer research, since high school. I discovered my passion for CS in university,
                     but continued to take biology and chemistry classes up through my second year. 
                     <br/><br/>
                     At the same time, I also wanted to hone
-                    my interest in statistical analysis, which I had already been learning as a part of my premed journey. Now, I am
+                    my interest in statistical analysis, which I had already been learning as a part of my premed journey. Now, I have graduated with
                     a double major in CS and biostatistics!
                     </div>
                     </Col>
