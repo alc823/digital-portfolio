@@ -42,8 +42,8 @@ function AboutMe(props) {
                     <div className="about-me-header">About Me</div><br/>
                     <div className="about-me-description">
                         I recently graduated with a Bachelor's Degree from the University of Virginia (Class of 2022). I was
-                    an Echols Scholar and studied computer science and biostatistics in the College of Arts & Sciences. Currently,
-                    I am searching for a full-time position as a software engineer.
+                    an Echols Scholar and studied computer science and biostatistics in the College of Arts & Sciences. I am currently
+                    pursuing a career as a full-time software engineer.
                     </div><br/>
                     <div className="about-me-description">
                         When I'm not coding, I like to draw (trying to get better at digital art right now!), game, 
@@ -71,7 +71,7 @@ function AboutMe(props) {
                 <Row>
                     <Col>
                     <div className="about-me-header">Interdiscriplinary Background</div><br/>
-                    <div className="about-me-description">Although I am pursuing software engineering as my career,
+                    <div className="about-me-description">Although I am a software engineer by trade,
                     my core background actually originated in the biological sciences, as I had been pursuing premedical courses
                     and extracurriculars, such as cancer research, since high school. I discovered my passion for CS in university,
                     but continued to take biology and chemistry classes up through my second year. 
