@@ -10,7 +10,6 @@ function Contact() {
             <div>If you would like to contact me, I can best be reached through email.</div><br/>
             <div>
                 <div>Email: alc3pf@virginia.edu</div>
-                <div>Cell Phone: +1 (757) 291-8155</div>
             </div><br/>
             <div style={{display:"inline"}}>
                 <img src={linkedin} className="icon" alt="linked in logo"
